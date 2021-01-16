@@ -69,7 +69,7 @@ li {
     transition: transform 1s ease;
 }
 .circle2:hover {
-    transform: translateX(500px);
+    transform: translateX(30%);
 }
 .circle3 {
     background: #ff00c8;
@@ -80,7 +80,7 @@ li {
     transition: transform 1s ease;
 }
 .circle3:hover {
-    transform: scaleX(30%);
+    transform: translateY(30%);
 }
 .circle4 {
     background: #45d94c;
