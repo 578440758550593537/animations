@@ -1,0 +1,106 @@
+body {
+    background-color: #182139;
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    color: #fff;
+    display: block;
+    height: 50px;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 50px;
+
+}
+li {
+    width: 210px;
+    background-color: rgb(255, 145, 0);
+    transition: background-color 1s linear;
+}
+li:hover {
+    background-color: rgb(0, 238, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px;
+    transition: padding 1s ease;
+}
+li {
+    list-style-type: none; 
+
+}
+.circle {
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    margin-top: 5%;
+    animation-name: blue-circle;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes blue-circle {
+    0%{
+        margin-left: 0%;
+    }
+    50% {
+        clip-path: circle(0%);
+        background-color: crimson;
+    }
+    100%{
+        margin-left: 25%;
+    }
+}
+.circle2 {
+    background: #456BD9;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    margin-top: 10%;
+    transition: transform 1s ease;
+}
+.circle2:hover {
+    transform: translateX(500px);
+}
+.circle3 {
+    background: #ff00c8;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    margin-top: 12%;
+    transition: transform 1s ease;
+}
+.circle3:hover {
+    transform: scaleX(30%);
+}
+.circle4 {
+    background: #45d94c;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    margin-top: 14%;
+    transition: transform 1s ease;
+}
+.circle4:hover {
+    transform: rotateX(100deg);
+}
+.circle5 {
+    background: #d9ca45;
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+    margin-top: 16%;
+    transition: transform 1s ease;
+}
+.circle5:hover {
+    transform: skew(30deg);
+}
